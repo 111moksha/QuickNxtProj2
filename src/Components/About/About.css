@@ -1,0 +1,18 @@
+.about{
+    width: 100%;
+    height: 12rem;
+}
+
+.about h2{
+    margin-top: 4rem;
+}
+
+@media (min-width: 200px) and (max-width: 480px){
+    .about{
+        height: 5rem;
+    }
+    .about h2{
+        font-size: 1.2rem;
+        margin-top: 6rem;
+    }
+}
